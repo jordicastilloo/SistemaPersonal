@@ -105,7 +105,9 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnloginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnloginActionPerformed
-        // TODO add your handling code here:
+        Principal view = new Principal();
+        view.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnloginActionPerformed
 
     /**
