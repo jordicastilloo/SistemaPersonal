@@ -60,6 +60,7 @@ public class Principal extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(254, 254, 254));
 
+        btnmantener.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/01.png"))); // NOI18N
         btnmantener.setText("Mantener");
         btnmantener.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,6 +68,7 @@ public class Principal extends javax.swing.JFrame {
             }
         });
 
+        btnlistar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/ojo.png"))); // NOI18N
         btnlistar.setText("LISTAR");
         btnlistar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,6 +76,7 @@ public class Principal extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/print.png"))); // NOI18N
         jButton3.setText("IMPRIMIR");
 
         jButton4.setText("jButton4");
