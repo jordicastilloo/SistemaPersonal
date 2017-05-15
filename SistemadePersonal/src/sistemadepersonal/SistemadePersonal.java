@@ -17,8 +17,8 @@ public class SistemadePersonal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Login a = new Login();
-        a.setVisible(true);
+        Login B = new Login();
+        B.setVisible(true);
     }
 
 }
