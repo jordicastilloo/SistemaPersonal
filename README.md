@@ -6,10 +6,8 @@ Sistema de Gestión de Personal para Establecimiento Educacional.
 ----------
 
 
-GIT-> ADD
+.................................
 GIT-> COMMIT
-GIT-> REMOTE -> PUSH
-
-----------
-
-GIT-> REMOTE -> PULL
+GIT-> REMOTE -> PUSH TO UPSTREAM
+.................................
+GIT-> REMOTE -> PULL TO UPSTREAM
